@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payactivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#764ba2"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Challa no.    :"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/challan_no1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Challan no."
+        android:inputType="text"
+        android:paddingBottom="10dp"
+        android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="License no. :"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/License_no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="License no."
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name           :"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/name_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name         "
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rule              :"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/rule_broken1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Rule broken"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle no.  :"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/vehicle_rc_no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle no.  "
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount        :"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/total_amount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Total amount"
+            android:inputType="text"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="25dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/payid"
+                android:onClick="payfinal"
+                android:text="Pay" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:onClick="Back_to_home"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

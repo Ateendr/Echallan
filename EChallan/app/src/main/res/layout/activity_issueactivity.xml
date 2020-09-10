@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Issueactivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#764ba2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                >
+
+
+
+            <TextView
+                android:id="@+id/show_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textSize="10dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/challan_icon"
+                android:scaleType = "centerCrop"
+                android:layout_marginTop="7dp"/>
+
+
+
+            <EditText
+                android:id="@+id/challan_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Challan no.              "
+                android:padding="10dp" />
+            </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ls_no"
+
+                android:layout_marginTop="7dp"/>
+
+            <EditText
+                android:id="@+id/License_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="License no.             "
+                android:inputType="text"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/name_icon"
+                android:layout_marginTop="7dp"/>
+
+            <EditText
+                android:id="@+id/name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name                      "
+                android:inputType="text"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/location"
+                android:layout_marginTop="7dp"/>
+
+            <EditText
+                android:id="@+id/accident_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Place                       "
+                android:inputType="text"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rules_icon"
+
+                android:layout_marginTop="7dp"/>
+
+
+            <EditText
+                android:id="@+id/rule_broken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Rules                       "
+                android:inputType="text"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/vehicl_icon"
+
+                android:layout_marginTop="7dp"/>
+
+            <EditText
+                android:id="@+id/vehicle_rc_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Vehicle RC no.       "
+                android:inputType="text"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rupee_icon"
+
+                android:layout_marginTop="7dp"/>
+
+            <EditText
+                android:id="@+id/total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Total amount         "
+                android:inputType="text"
+                android:padding="10dp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/email_icon"
+
+                android:layout_marginTop="7dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Email                      "
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/sendissuemail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Send"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/date_icon"
+                    android:layout_marginTop="7dp"/>
+
+                <EditText
+                    android:id="@+id/show_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Date:Time              "
+                    android:inputType="text"
+                    android:padding="10dp" />
+
+
+                <Button
+                    android:onClick="get_date_time"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="get"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="0dp">
+
+
+                <Button
+                    android:id="@+id/save_issue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="issue_challan_1"
+                    android:paddingRight="20dp"
+                    android:text="ISSUE"
+
+                    />
+
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="Back_to_home"
+                    android:text="HOME" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

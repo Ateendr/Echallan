@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">E-Challan</string>
+    <string name="title_activity_feedback">feedbackActivity</string>
+</resources>
